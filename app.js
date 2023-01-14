@@ -14,9 +14,9 @@ const db = require('./db');
 const AWS = require('aws-sdk');
 const S3 = new AWS.S3({
     credentials: {
-        accessKeyId:process.env.S3_ACCESSKEYID,//'AKIAZX5ENUOBPNXTYZZF',
-        secretAccessKey: process.env.S3_SECRETACESSKEY,//'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',
-        endpoint: process.env.S3_ENDPOINT//'https://userpicbucket.s3.ap-northeast-1.amazonaws.com',
+        accessKeyId:process.env.S3_ACCESSKEYID,
+        secretAccessKey: process.env.S3_SECRETACESSKEY,
+        endpoint: process.env.S3_ENDPOINT//'
     }
 });
 // 設定 view engine

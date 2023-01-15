@@ -1,8 +1,9 @@
 <h1>AWS image upload to S3+ CDN + RDS+ Docker</h1>
 <h2>DEMO</h2>
 
- ![後端練習 — Mozilla Firefox 2023-01-15 19-29-15 (1)](https://user-images.githubusercontent.com/111422800/212541032-0d7f749e-009f-443c-9f62-5d51635543c7.gif)
- 
+![後端練習 — Mozilla Firefox 2023-01-15 19-29-15 (4)](https://user-images.githubusercontent.com/111422800/212543571-34ac1fc9-1dd0-40cd-a468-0037ee0621a7.gif)
+
+
  <br>
 <h2>Detail</h2>
   <p> WEBsite : http://50.19.56.20:5005/.</p>

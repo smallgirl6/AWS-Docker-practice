@@ -1,4 +1,4 @@
-<h1>AWS image upload to S3+ CDN + RDS+DOcker</h1>
+<h1>AWS image upload to S3+ CDN + RDS+ Docker</h1>
 <h2>DEMO</h2>
 
  ![後端練習 — Mozilla Firefox 2023-01-15 19-29-15 (1)](https://user-images.githubusercontent.com/111422800/212541032-0d7f749e-009f-443c-9f62-5d51635543c7.gif)

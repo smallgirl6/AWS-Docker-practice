@@ -21,8 +21,12 @@
         <p>This practice is that when the user clicks the submit button, the image will be uploaded to S3 first from the server side. S3 will then distribute the image to servers around the world. Next, RDS will also receive the image file name and message directly from the server side. The return part is that the server will fetch the message and image file name from RDS, and then use the image file name to find data on CDN. After finding the matching data, the image and message will be sent back to the client together.</p>
       <li>Docker</li>
         <p> First, install Docker. Next, create a Dockerfile and dockerignore in your local project. Using VSCODE, find the Dockerfile and right-click on it. You will find an option called "Build Image". After clicking it, you can find the built image in your Docker. Assign a port to the image and run it locally. Afterwards, we will push the local image to Docker Hub. After pushing, open our EC2 and pull the image from Docker Hub on EC2. After running the image, our project can now run on Docker.</p>
-        <li>EC2 Load Balancer</li>
-        <p> </p>
+        <li>SSL</li>
+          <p>Obtain an SSL certificate using the AWS Certificate Manager and bind it to your domain. By setting the domain to use HTTPS, it ensures the security of the website.</p>
+        <li>AMI</li>
+          <p>Create an EC2 instance. First, select the operating system and configuration you want to use, then create the AMI. Next, use the newly created AMI to launch an EC2 instance on AWS.</p>
+         <li>EC2 Load Balancer</li>
+           <p>Use Amazon Elastic Load Balancer (ELB) to distribute traffic. First, create an ELB and bind it to EC2 instances. Next, ELB will distribute traffic evenly to all the bound EC2 instances, thus improving the availability and elasticity of the website.<a href="https://github.com/smallgirl6/AWS-Docker-practice/blob/main/ELB.md">   EC2 Load Balancer Result</p>
     </ul>
     <h2>Architecture diagram</h2>
      <ul>

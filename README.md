@@ -23,9 +23,13 @@
      <ul>
       <li>AWS</li>
  <br>
-      
-![image](https://user-images.githubusercontent.com/111422800/212542005-b4331ece-93d1-4694-b687-2f17248d96ae.png)
  
+![image](https://user-images.githubusercontent.com/111422800/213063395-67c98fe4-c6cf-4757-9ac8-48de51f9ae71.png)
+ 
+ <br>
+ 
+ ![image](https://user-images.githubusercontent.com/111422800/213063429-553d8352-6d55-4e5e-888f-7cf25f6857f7.png)
+
  <br>
       <li>Docker</li>
  <br>
